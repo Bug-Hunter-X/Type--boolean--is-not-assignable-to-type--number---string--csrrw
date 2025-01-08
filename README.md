@@ -1,0 +1,1 @@
+This bug demonstrates a common issue in TypeScript type checking.  The function `processValue` accepts either a number or a string. However, passing a boolean value results in a type error because booleans are neither numbers nor strings.  The solution involves either explicitly handling booleans or refining the function's type signature to include booleans.
